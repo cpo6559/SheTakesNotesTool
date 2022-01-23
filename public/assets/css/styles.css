@@ -6,6 +6,8 @@ body {
 }
 
 .save-note {
+  border: solid;
+  border-color: #000000;
   display: none;
 }
 
