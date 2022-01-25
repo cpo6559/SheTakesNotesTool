@@ -3,11 +3,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: salmon;
 }
 
 .save-note {
   border: solid;
-  border-color: #000000;
+  border-color: red;
   display: none;
 }
 
