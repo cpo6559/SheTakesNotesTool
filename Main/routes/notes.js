@@ -2,11 +2,11 @@ const route = require('express').route();
 
 const store = require('../db/notes.json');
 
-// requesting the existing notes
+// requesting existing notes
 
 route.get('../db/notes.json', (req, res) => {
     store
-        .getNotes()
+        .pullNotes()
         .then(notes => {
             res.json(notes)
         })
